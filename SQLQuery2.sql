@@ -7,9 +7,6 @@ update BigCitiesHealthData
 Set [Race or Ethnicity] = REPLACE([Race or Ethnicity], '/', ' and ')
 where [Race or Ethnicity] = 'Asian/PI'
 
-select top 100 *
-from BigCitiesHealthData
-
 --add a column for indicator value type
 alter table BigCitiesHealthData 
 add [Indicator Value Type] varchar(100)
@@ -77,6 +74,7 @@ from BigCitiesHealthData
 where CHARINDEX(',', Source1) > 0
 order by source1
 
+--for cells in the source column that have multiple sources, seperate each source into its own column
 update BigCitiesHealthData
 set Source1 = PARSENAME(Source1,3)
 where Source1 = 'OnlineAnalyticalStatisticalInformationSystem.GeorgiaDepartmentofPublicHealth.OfficeofHealthIndicatorsforPlanning(OHIP)'

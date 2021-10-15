@@ -1,5 +1,3 @@
---Cleaning Data
-
 --change all the '/' to 'and'
 update BigCitiesHealthData
 Set [Indicator Category] = REPLACE([Indicator Category], '/', ' and ')

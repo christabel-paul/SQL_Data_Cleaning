@@ -1,7 +1,7 @@
 This dataset from Data.World summarizes the leading causes of mortality in 26 of the largest urban cities in the US. 
 Data Set: https://data.world/health/big-cities-health
 
-Attributes of original data set
+Attributes of original data set  
 Indicator Category: condition which is contributing to mortality rate.
 Indicator: statistic which places indicator category in leading cause of mortality
 Value: indicator category value

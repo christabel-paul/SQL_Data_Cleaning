@@ -21,7 +21,7 @@ update BigCitiesHealthData
 set [Indicator Value Type] = 'Years' 
 where  CHARINDEX('Years',Indicator)>0 and  [Indicator] = 'Life Expectancy at Birth (Years)'
 
---populate [indicator value type] for year values
+--populate [indicator value type] for percent values
 update BigCitiesHealthData
 set [Indicator Value Type] = 'Percent' 
 where   

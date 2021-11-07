@@ -9,12 +9,13 @@ Year: year of statistic
 Gender  
 Race/Ethnicity  
 Place: city (county), state  
+BCHC Requested Methodology
 Source: sources used in data collection (multiple sources listed in one column)  
-Methods: details of data collection  
+Methods: additional details of data collection  
 Notes
 
 Steps taken to clean data:  
-1. Split Indicator attribute into Indicator and Indicator Value Type attributes
+1. Split Indicator attribute into Indicator and Indicator Value Type attributes  
   e.g. Indicator = "Tuberculosis Incidence Rate (Per 100,000 people)" --> Indicator = "Tuberculosis Incidence Rate", Indicator Value Type = "Per 100,000 people"
 
 2. Seperate place into City, County, and State attributes  
@@ -28,7 +29,24 @@ Steps taken to clean data:
        
  4. Move notes in Source attribute to Notes attribute.
 
-
+Attributes in updated dataset:
+Indicator Category  
+Indicator  
+Indicator Value  
+Indicator Value Type  
+Year  
+Gender  
+Race or Ethnicity  
+City  
+County  
+State  
+BCHC Requested Methodology  
+Source1  
+Source2  
+Source3  
+Source4  
+Methods  
+Notes
 
 Full SQL queries used in cleaning are shown in [SQLQuery2.sql](https://github.com/christabel-paul/SQL_Data_Cleaning/blob/main/SQLQuery2.sql)
 

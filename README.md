@@ -9,7 +9,7 @@ Year: year of statistic
 Gender  
 Race/Ethnicity  
 Place: city (county), state  
-BCHC Requested Methodology
+BCHC Requested Methodology  
 Source: sources used in data collection (multiple sources listed in one column)  
 Methods: additional details of data collection  
 Notes

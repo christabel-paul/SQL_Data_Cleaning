@@ -1,8 +1,8 @@
 ### This dataset from Data.World summarizes the leading causes of mortality in 26 of the largest urban cities in the US.  
 Data Set: https://data.world/health/big-cities-health  
 
-[orignal dataset -sample records](https://github.com/christabel-paul/SQL_Data_Cleaning/blob/main/Big_Cities_Health_Data_sample_records.csv)  
-[cleaned dataset -sample records](https://github.com/christabel-paul/SQL_Data_Cleaning/blob/main/Big_Cities_Health_Data_%20updated_sample_records.csv)
+[orignal dataset - sample records](https://github.com/christabel-paul/SQL_Data_Cleaning/blob/main/Big_Cities_Health_Data_sample_records.csv)  
+[cleaned dataset - sample records](https://github.com/christabel-paul/SQL_Data_Cleaning/blob/main/Big_Cities_Health_Data_%20updated_sample_records.csv)
 
 **Attributes of original data set:**  
 Indicator Category: condition which is contributing to mortality rate.  

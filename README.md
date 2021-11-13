@@ -1,5 +1,5 @@
 # SQL DATA cleaning
-Summary: This dataset from Data.World summarizes the leading causes of mortality in 26 of the largest urban cities in the US.  
+Summary: This dataset from Data.World summarizes the leading causes of mortality in 26 of the largest urban cities in the US from 2010-2012 
 
 Data Set: https://data.world/health/big-cities-health  
 

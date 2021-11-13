@@ -13,7 +13,7 @@ Value: indicator category value
 Year: year of statistic  
 Gender  
 Race/Ethnicity  
-Place: city (county), state  
+Place: City (County), State  
 BCHC Requested Methodology  
 Source: sources used in data collection (multiple sources listed in one column)  
 Methods: additional details of data collection  
